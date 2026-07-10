@@ -97,7 +97,7 @@ main div>.btn{
 /* Meet the Speakers Section */
 .speakers div .speakers-header{
     text-align: center;
-    font-size: 56px;
+    font-size: 50px;
     padding: 20px;
     font-weight:bold;
 }
@@ -147,90 +147,189 @@ main div>.btn{
 
 /* Secure Your Spot Section */
 
-.spot{
-    padding: 50px;
+.pricing-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
 }
 
-.spot h2{
+/* Cards */
+.card1{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 32px;
+    color: 333333;
+    margin: 25px;
+    height: 400px;
+}
+
+.card2{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #0D1B2A;
+    padding: 32px;
+    color: white;
+    margin: 25px;
+    height: 400px;
+}
+
+.card3{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #F8F9FB;
+    padding: 32px;
+    color: 333333;
+    margin: 25px;
+    height: 400px;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin: 20px 0;
+}
+.heading h2{
+    color: #0D1B2A;
     text-align: center;
     font-size: 48px;
-    margin-bottom: 5px;
+    padding: 15px;
 }
-
-.spot > p{
+.paragraph{
     text-align: center;
-    color: gray;
-    margin-bottom: 25px;
+    color: #575757;
+    font-size: 16px;
 }
 
-
-.pricing-cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+.p{
+    color: #888888;
+    font-size: 13px;
+    font-weight:700;
 }
-
-
-.standard,
-.pro,
-.team{
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 32px;
+.p2{
+    color: #93C5FD;
 }
-
-/* Pro Card */
-
-.pro{
-    background: #0F172A;
-    color: white;
+.price{
+    color: #888888;
+    font-size: 13px;
+    font-weight:700;
 }
-
-
-.standard h4,
-.pro h4,
-.team h4{
+.card1>h4{
     font-size: 44px;
-    margin: 10px 0;
+}
+.card2>h4{
+    font-size: 44px;
+}
+.card3>h4{
+    font-size: 44px;
 }
 
-
-.standard ul,
-.pro ul,
-.team ul{
-    margin: 20px 0;
-    padding-left: 20px;
+/* AI section */
+.hackathon{
+    padding: 60px 30px;
 }
 
-.standard li,
-.pro li,
-.team li{
-    margin: 10px 0;
+.hackathon .heading{
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-/* Button */
-
-.standard-btn{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid blue;
-    border-radius: 8px;
-    background: white;
-    color: blue;
-    cursor: pointer;
+.hackathon .heading h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 8px;
 }
 
-.pro .standard-btn{
-    background: blue;
-    color: white;
-    border: none;
+.hackathon .heading p{
+    color: #575757;
 }
 
+.hackathon-stats{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
 
-/* @media (max-width:768px){
+.hackathon-stat-card{
+    flex: 1;
+    min-width: 180px;
+    border: 1px solid #E5E7EB;
+    border-radius: 15px;
+    padding: 24px;
+    text-align: center;
+}
 
-    .pricing-cards{
-        grid-template-columns: 1fr;
-    }
+.hackathon-stat-value{
+    color: #2457ff;
+    font-size: 32px;
+    font-weight: 700;
+}
 
-} */
+.hackathon-stat-label{
+    color: #888888;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.hackathon-tracks-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 15px;
+    padding: 28px;
+}
+
+.hackathon-tracks-label{
+    color: #0D1B2A;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.hackathon-tags{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.hackathon-tag{
+    background: #E8F0FF;
+    color: #2457ff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.hackathon-cta{
+    text-align: center;
+    margin-top: -100px;
+}
+
+/* footer */
+footer{
+    padding: 50px;
+    background-color: #0D1B2A;
+}
+.footer{
+    color: #FFFFFF;
+    opacity: 40%;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-2 ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.footer-2 ul a{
+    color: #F8F9FB;
+    text-decoration: none;
+    opacity: 40%;
+}
