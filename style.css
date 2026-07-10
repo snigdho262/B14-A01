@@ -163,7 +163,6 @@ main div>.btn{
     margin-bottom: 25px;
 }
 
-/* Cards Container */
 
 .pricing-cards{
     display: grid;
@@ -171,7 +170,6 @@ main div>.btn{
     gap: 25px;
 }
 
-/* Common Card */
 
 .standard,
 .pro,
