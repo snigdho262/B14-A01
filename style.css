@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+/* nav section */
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.content{
+    max-width: 1600px;
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #575757;
+}
+
+.btn{
+    padding:15px 35px;
+    font-size:16px;
+    border:none;
+    border-radius:8px;
+    background:#2457ff;
+    color:white;
+    cursor:pointer;
+}
+
+/* Hero section */
+.hero{
+    position:relative;
+}
+
+.hero img{
+    width:100%;
+    height:850px;
+    object-fit:cover;
+    display:block;
+}
+
+.hero-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:80%;
+    max-width:900px;
+    color:white;
+    text-align:center;
+}
+
+.hero-content h1{
+    font-size:80px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:22px;
+    line-height:1.6;
+    max-width:700px;
+    margin:20px auto 40px;
+}
+
+main div>.btn{
+    margin-top: 200px;
+    font-weight: 700;
+}
+
+/* Meet the Speakers Section */
