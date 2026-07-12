@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -102,7 +104,7 @@
                             <li>Networking lunch & coffee breaks</li>
                             <li>Conference swag bag</li>
                             <li>Digital recordings (30 days)</li>
-                            <button class="btn">Get Standard</button>
+                            <button class="standard-btn">Get Standard</button>
                         </ul>
                         
                     </div>
@@ -113,13 +115,13 @@
                         <p class="price">per person</p>
                         <hr>
                         <ul>
-                            <li>Access to all 3 conference days</li>
-                            <li>48 curated technical talks</li>
-                            <li>2 workshop sessions</li>
-                            <li>Networking lunch & coffee breaks</li>
-                            <li>Conference swag bag</li>
-                            <li>Digital recordings (30 days)</li>
-                            <button class="btn">Get Pro</button>
+                            <li>Everything in Standard</li>
+                            <li>Unlimited workshop access</li>
+                            <li>Speaker meet & greet</li>
+                            <li>VIP networking dinner</li>
+                            <li>Lifetime recording access</li>
+                            <li>1-on-1 mentorship (30 min)</li>
+                            <button class="pro-btn">Get Pro</button>
                         </ul>
                         
                     </div>
@@ -130,13 +132,13 @@
                         <p class="price">up to 10 people</p>
                         <hr>
                         <ul>
-                            <li>Access to all 3 conference days</li>
-                            <li>48 curated technical talks</li>
-                            <li>2 workshop sessions</li>
-                            <li>Networking lunch & coffee breaks</li>
-                            <li>Conference swag bag</li>
-                            <li>Digital recordings (30 days)</li>
-                            <button class="btn">Contact Us</button>
+                            <li>Everything in Pro (10 seats)</li>
+                            <li>Dedicated team lounge access</li>
+                            <li>Private workshop booking</li>
+                            <li>Company logo on event page</li>
+                            <li>Recruitment booth (1 day)</li>
+                            <li>Priority customer support</li>
+                            <button class="contact-us-btn">Contact Us</button>
                         </ul>
                     </div>
                 </div>
@@ -144,57 +146,84 @@
         </section>
 
         <!-- AI section -->
-         <section class="hackathon content">
+        <section class="jobs content">
             <div class="heading">
-                <h2>48-Hour Hackathon</h2>
-                <p>Build something real, alongside 500+ hackers, before the conference doors even open.</p>
+                <h2>Job Board</h2>
+                <p class="paragraph">Sponsors and partner companies are hiring on-site. Browse open roles below.</p>
             </div>
 
-            <div class="hackathon-stats">
-                <div class="hackathon-stat-card">
-                    <p class="hackathon-stat-value">$25,000</p>
-                    <p class="hackathon-stat-label">Total Prize Pool</p>
+            <div class="jobs-grid">
+                <div class="job-card job-card-featured">
+                    <span class="job-featured-tag">Featured</span>
+                    <p class="job-company">Nimbus Cloud</p>
+                    <h3 class="job-role">Senior Backend Engineer</h3>
+                    <p class="job-location"><i class="fa-solid fa-location-dot"></i> Dhaka, BD &middot; Remote friendly</p>
+                    <div class="job-tags">
+                        <span class="job-tag job-tag-inverted">Node.js</span>
+                        <span class="job-tag job-tag-inverted">PostgreSQL</span>
+                        <span class="job-tag job-tag-inverted">AWS</span>
+                    </div>
+                    <button class="job-btn job-btn-inverted">View Role</button>
                 </div>
-                <div class="hackathon-stat-card">
-                    <p class="hackathon-stat-value">48 hrs</p>
-                    <p class="hackathon-stat-label">Build Window</p>
+
+                <div class="job-card">
+                    <p class="job-company">Pixel Forge</p>
+                    <h3 class="job-role">Frontend Engineer</h3>
+                    <p class="job-location"><i class="fa-solid fa-location-dot"></i> Dhaka, BD</p>
+                    <div class="job-tags">
+                        <span class="job-tag">React</span>
+                        <span class="job-tag">TypeScript</span>
+                        <span class="job-tag">CSS</span>
+                    </div>
+                    <button class="job-btn">View Role</button>
                 </div>
-                <div class="hackathon-stat-card">
-                    <p class="hackathon-stat-value">1&ndash;4</p>
-                    <p class="hackathon-stat-label">Team Size</p>
+
+                <div class="job-card">
+                    <p class="job-company">Latency Labs</p>
+                    <h3 class="job-role">Data Engineer Intern</h3>
+                    <p class="job-location"><i class="fa-solid fa-location-dot"></i> Remote</p>
+                    <div class="job-tags">
+                        <span class="job-tag">Python</span>
+                        <span class="job-tag">Spark</span>
+                        <span class="job-tag">SQL</span>
+                    </div>
+                    <button class="job-btn">View Role</button>
+                </div>
+
+                <div class="job-card">
+                    <p class="job-company">Northbound Systems</p>
+                    <h3 class="job-role">DevOps Engineer</h3>
+                    <p class="job-location"><i class="fa-solid fa-location-dot"></i> Chattogram, BD</p>
+                    <div class="job-tags">
+                        <span class="job-tag">Docker</span>
+                        <span class="job-tag">Kubernetes</span>
+                        <span class="job-tag">CI/CD</span>
+                    </div>
+                    <button class="job-btn">View Role</button>
                 </div>
             </div>
 
-            <div class="hackathon-tracks-card">
-                <p class="hackathon-tracks-label">Tracks</p>
-                <div class="hackathon-tags">
-                    <span class="hackathon-tag">AI / ML</span>
-                    <span class="hackathon-tag">Developer Tools</span>
-                    <span class="hackathon-tag">Climate Tech</span>
-                    <span class="hackathon-tag">Open Innovation</span>
-                </div>
-            </div>
-
-            <div class="hackathon-cta">
-                <button class="btn">Join the Hackathon</button>
+            <div class="jobs-cta">
+                <p>Hiring at DevConf? <a href="#" class="jobs-cta-link">List your open role &rarr;</a></p>
             </div>
         </section>
     </main>
     
     <!-- footer section -->
-    <footer>
-        <div class="content">      
-            <p class="footer">© 2026 DevConf. All rights reserved.</p>
-            <div class="logo"><img src="./assets/logo-mini.png">
-                <h3 class="footer-name">DEVCONF</h3>
-            </div>
-            <div class="footer-2">
-                <ul>
-                    <li><a href="#">Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                </ul>
-            </div>
+     <footer>
+        <div class="left-item">
+            <img src="./assets/logo-mini.png" alt="" srcset="">
+            <h5>DEVCONF 2026</h5>
         </div>
-    </footer>
+        <div class="center-item">
+            <p>© 2026 DevConf. All rights reserved.</p>
+        </div>
+
+        <div class="right-item">
+            <span><i class="fa-brands fa-facebook"></i></span>
+            <span><i class="fa-brands fa-square-instagram"></i></span>
+            <span><i class="fa-brands fa-linkedin"></i></span>
+        </div>
+     </footer>
 </body>
 </html>
