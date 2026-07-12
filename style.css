@@ -315,7 +315,7 @@ ul .btn{
 
 /* footer */
 footer{
-    padding: 50px;
+    padding: 150px;
     background-color: #0D1B2A;
 }
 .footer{
@@ -336,4 +336,7 @@ footer div{
     color: #F8F9FB;
     text-decoration: none;
     opacity: 40%;
+}
+.logo{
+    text-align: conter;
 }
