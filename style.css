@@ -292,90 +292,6 @@ hr{
 }
 
 /* AI section */
-.hackathon{
-    padding: 60px 30px;
-}
-
-.hackathon .heading{
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.hackathon .heading h2{
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 8px;
-}
-
-.hackathon .heading p{
-    color: #575757;
-}
-
-.hackathon-stats{
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-}
-
-.hackathon-stat-card{
-    flex: 1;
-    min-width: 180px;
-    border: 1px solid #E5E7EB;
-    border-radius: 15px;
-    padding: 24px;
-    text-align: center;
-}
-
-.hackathon-stat-value{
-    color: #2457ff;
-    font-size: 32px;
-    font-weight: 700;
-}
-
-.hackathon-stat-label{
-    color: #888888;
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 8px;
-}
-
-.hackathon-tracks-card{
-    border: 1px solid #E5E7EB;
-    border-radius: 15px;
-    padding: 28px;
-}
-
-.hackathon-tracks-label{
-    color: #0D1B2A;
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-}
-
-.hackathon-tags{
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-}
-
-.hackathon-tag{
-    background: #E8F0FF;
-    color: #2457ff;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
-
-.hackathon-cta{
-    text-align: center;
-    margin-top: -100px;
-}
-
-/* Job Board section */
 .jobs{
     padding: 60px 30px;
 }
@@ -493,7 +409,7 @@ hr{
     font-weight: 700;
     padding: 6px 14px;
     border-radius: 20px;
-    transition: background .2s ease, color .2s ease;
+    transition: 0.2s ease, color .2s ease;
 }
 
 .job-card:hover .job-tag{
@@ -521,7 +437,7 @@ hr{
     background: #FFFFFF;
     border-radius: 5px;
     cursor: pointer;
-    transition: background .2s ease, color .2s ease;
+    transition: 0.2s ease, color .2s ease;
 }
 
 .job-btn:hover{
